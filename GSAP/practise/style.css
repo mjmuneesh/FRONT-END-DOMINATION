@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+
+#page2 {
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(69, 42, 165);
+    position: relative;
+}
+
+#page2 h1 {
+    font-size: 90px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.card {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+}
+
+#card1 {
+    background-color: aquamarine;
+    left: 10%;
+    top: 80vh;
+}
+
+#card2 {
+    background-color: rgb(43, 172, 54);
+    left: 50%;
+    top: 130vh;
+}
+
+#card3 {
+    background-color: rgb(140, 28, 185);
+    left: 10%;
+    top: 170vh;
+}
+
+#card4 {
+    background-color: rgb(227, 85, 24);
+    left: 50%;
+    top: 230vh;
+}
+
+#card5 {
+    background-color: rgb(165, 17, 47);
+    left: 10%;
+    top: 270vh;
+}
+
+
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 165, 53);
+}

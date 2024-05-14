@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 90px;
+padding-top: 120px;
+   
+}
+
+#left{
+width: 42%;
+height: 100%;
+/* background-color: brown; */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+#left h1{
+    font-family: sans-serif ;
+    font-size: 85px;
+    padding: 20px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+
+#left-bottom{
+width: 100%;
+height: 40%;
+/* background-color: blanchedalmond; */
+}
+
+#color{
+    margin: 5px;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 15px ;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+#color h5{
+font-size: 17px;
+font-weight: 500;
+margin-right: 10px;
+}
+
+#color1{
+height: 20px;
+width: 20px;
+background-color: rgb(46, 81, 175);
+border-radius: 50px;
+border: 1px solid black;
+margin: 3px;
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(20, 176, 174);
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#para{
+    padding: 12px;
+    width: 60%;
+}
+
+#para h4{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#para p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #444;
+}
+
+
+#right{
+    width: 28%;
+    height: 80%;
+    /* background-color: rgb(21, 9, 114); */
+    position: relative;
+    
+}
+
+#right-top{
+    width: 100%;
+    height: 60px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+
+
+}
+
+#right-top h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+#right-top h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 4px;
+    
+}
+
+#right-top i{
+color: gold;
+padding-right: 3px;
+font-size: 14px;
+
+}
+
+#right-center img{
+    width: 100%;
+    height: 66.8vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+#black-circle{
+    width: 120px;
+    height:120px;
+    background-color: rgb(69 159 152);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+align-items: center;
+border-radius: 70px;
+position: absolute;
+left:88%;
+bottom: 30%;
+
+}
+
+#black-circle h5{
+font-size: 20px;
+font-weight: 500;
+}
+
+#side-heading{
+    position: absolute;
+    /* background-color: cadetblue; */
+    font-size: 30px;
+    font-weight: 400;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    left: -10%;
+    bottom: -20%
+}

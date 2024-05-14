@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* 1. timeliine and intitial and final postition using gsap  */
+
+/* #box1{
+    height: 200px;
+    width: 300px;
+    background-color: crimson;
+}
+
+#box2{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(20, 177, 104);
+}
+
+#box3{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(8, 24, 129);
+} */
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(11, 11, 11);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#nav #part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+ gap: 30px;
+}
+
+#nav h3{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#main #intro h1{
+    /* background-color: brown; */
+    color: white;
+    font-size: 120px;
+    text-transform: uppercase;
+    width: 70%;
+    margin-left: 17%;
+    line-height: 110px;
+    position: relative;
+    z-index: 900;
+}
+
+#main #intro h1:nth-child(1){
+    margin-top: 130px;
+}
+
+#main #intro h1:nth-child(2){
+ text-align: center;
+ color: rgb(64, 1, 103);
+}
+
+#main #intro h1:nth-child(3){
+    text-align: center;
+   }
+
+   #main img{
+    width: 25%;
+    top: 18%;
+    left: 34%;
+    position: absolute;
+   }
